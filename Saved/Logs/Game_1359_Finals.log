@@ -3151,3 +3151,674 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.12.08-22.23.49:289][229]LogSlate: Window 'BP_Player0' being destroyed
 [2023.12.08-22.23.52:575][425]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
 [2023.12.08-22.23.54:425][528]LogViewport: Scene viewport resized to 1146x549, mode Windowed.
+[2023.12.08-22.28.09:351][553]LogViewport: Scene viewport resized to 750x891, mode Windowed.
+[2023.12.08-22.28.09:362][553]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.28.09:363][553]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.28.09:363][553]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.28.09:363][553]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.28.09:365][553]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.28.09:366][553]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.28.10:734][558]LogEditorViewport: Clicking Background
+[2023.12.08-22.29.06:750][950]LogViewport: Scene viewport resized to 1529x896, mode Windowed.
+[2023.12.08-22.29.24:187][983]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/CoreSystems/BP_GameMode.BP_GameMode
+[2023.12.08-22.29.24:187][983]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.08-22.29.24:187][983]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.08-22.29.42:948][ 87]LogShaderCompilers: Display: ================================================
+[2023.12.08-22.29.42:949][ 87]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.12.08-22.29.42:949][ 87]LogShaderCompilers: Display: Total job queries 34, among them cache hits 4 (11.76%)
+[2023.12.08-22.29.42:949][ 87]LogShaderCompilers: Display: Tracking 29 distinct input hashes that result in 16 distinct outputs (55.17%)
+[2023.12.08-22.29.42:949][ 87]LogShaderCompilers: Display: RAM used: 66.73 KiB of 819.20 MiB budget. Usage: 0.01%
+[2023.12.08-22.29.42:949][ 87]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.12.08-22.29.42:949][ 87]LogShaderCompilers: Display: Shaders Compiled: 13
+[2023.12.08-22.29.42:949][ 87]LogShaderCompilers: Display: Jobs assigned 14, completed 13 (92.86%)
+[2023.12.08-22.29.42:949][ 87]LogShaderCompilers: Display: Average time worker was idle: 195.15 s
+[2023.12.08-22.29.42:949][ 87]LogShaderCompilers: Display: Time job spent in pending queue: average 0.04 s, longest 0.07 s
+[2023.12.08-22.29.42:949][ 87]LogShaderCompilers: Display: Job execution time: average 1.03 s, max 1.26 s
+[2023.12.08-22.29.42:949][ 87]LogShaderCompilers: Display: Job life time (pending + execution): average 1.07 s, max 1.33
+[2023.12.08-22.29.42:949][ 87]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 3.03 s
+[2023.12.08-22.29.42:949][ 87]LogShaderCompilers: Display: Jobs were issued in 14 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.12.08-22.29.42:949][ 87]LogShaderCompilers: Display: Average processing rate: 4.29 jobs/sec
+[2023.12.08-22.29.42:949][ 87]LogShaderCompilers: Display: Total thread time: 9.114 s
+[2023.12.08-22.29.42:949][ 87]LogShaderCompilers: Display: Total thread preprocess time: 0.422 s
+[2023.12.08-22.29.42:949][ 87]LogShaderCompilers: Display: Percentage time preprocessing: 4.63%
+[2023.12.08-22.29.42:949][ 87]LogShaderCompilers: Display: Effective parallelization: 3.00 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.12.08-22.29.42:949][ 87]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.12.08-22.29.42:949][ 87]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    4 times, average 0.90 sec, max 1.01 sec, min 0.78 sec)
+[2023.12.08-22.29.42:949][ 87]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    4 times, average 0.87 sec, max 1.01 sec, min 0.74 sec)
+[2023.12.08-22.29.42:949][ 87]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    2 times, average 0.61 sec, max 0.61 sec, min 0.60 sec)
+[2023.12.08-22.29.42:949][ 87]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    2 times, average 0.35 sec, max 0.37 sec, min 0.33 sec)
+[2023.12.08-22.29.42:949][ 87]LogShaderCompilers: Display:                                  TSlateMaterialShaderVSfalse (compiled    1 times, average 0.15 sec, max 0.15 sec, min 0.15 sec)
+[2023.12.08-22.29.42:949][ 87]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.12.08-22.29.42:949][ 87]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 39.35% of total time (compiled    4 times, average 0.90 sec, max 1.01 sec, min 0.78 sec)
+[2023.12.08-22.29.42:949][ 87]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 38.02% of total time (compiled    4 times, average 0.87 sec, max 1.01 sec, min 0.74 sec)
+[2023.12.08-22.29.42:949][ 87]LogShaderCompilers: Display:                                                 FLumenCardVS - 13.30% of total time (compiled    2 times, average 0.61 sec, max 0.61 sec, min 0.60 sec)
+[2023.12.08-22.29.42:949][ 87]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 7.70% of total time (compiled    2 times, average 0.35 sec, max 0.37 sec, min 0.33 sec)
+[2023.12.08-22.29.42:949][ 87]LogShaderCompilers: Display:                                  TSlateMaterialShaderVSfalse - 1.62% of total time (compiled    1 times, average 0.15 sec, max 0.15 sec, min 0.15 sec)
+[2023.12.08-22.29.42:949][ 87]LogShaderCompilers: Display: ================================================
+[2023.12.08-22.29.44:176][159]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.08-22.29.51:935][617]LogViewport: Scene viewport resized to 1146x549, mode Windowed.
+[2023.12.08-22.29.52:200][617]LogViewport: Scene viewport resized to 750x891, mode Windowed.
+[2023.12.08-22.29.52:215][617]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.29.52:217][617]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.29.52:217][617]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.29.52:218][617]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.29.52:218][617]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.29.52:218][617]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.31.43:508][792]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2023.12.08-22.31.44:593][857]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.08-22.31.44:609][857]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.08-22.31.44:609][857]PIE: New page: PIE session: TestLevel (Dec 8, 2023, 10:31:44 AM)
+[2023.12.08-22.31.44:609][857]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2023.12.08-22.31.44:614][857]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004805s)
+[2023.12.08-22.31.44:614][857]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.004852s)
+[2023.12.08-22.31.44:614][857]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.08-22.31.44:614][857]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.08-22.31.44:614][857]LogAIModule: Creating AISystem for world TestLevel
+[2023.12.08-22.31.44:615][857]LogPlayLevel: PIE: World Init took: (0.000680s)
+[2023.12.08-22.31.44:635][857]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2023.12.08-22.31.44:635][857]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2023.12.08-22.31.44:635][857]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.08-22.31.44:635][857]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.08-22.31.44:635][857]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.08-22.31.44:635][857]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.08-22.31.44:635][857]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.12.08-22.31.44:635][857]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.12.08-22.31.44:635][857]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.12.08-22.31.44:635][857]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.08-22.31.44:635][857]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.08-22.31.44:635][857]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.08-22.31.44:635][857]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.08-22.31.44:638][857]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.08-22.31.44:694][857]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.12.08-22.31.44:694][857]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.08-22.31.44:694][857]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.08-22.31.44:694][857]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.08-22.31.44:694][857]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2023.12.08-22.31.44:694][857]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2023.12.08-22.31.44:697][857]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2023.12.08-22.31.44:697][857]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2023.12.08-22.31.44:697][857]LogInit: FAudioDevice initialized with ID 4.
+[2023.12.08-22.31.44:697][857]LogAudio: Display: Audio Device (ID: 4) registered with world 'TestLevel'.
+[2023.12.08-22.31.44:697][857]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2023.12.08-22.31.44:700][857]LogLoad: Game class is 'BP_GameMode_C'
+[2023.12.08-22.31.44:702][857]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2023.12.08-16.31.44
+[2023.12.08-22.31.44:703][857]LogWorld: Bringing up level for play took: 0.002693
+[2023.12.08-22.31.44:707][857]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2023.12.08-22.31.44:708][857]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.12.08-22.31.44:708][857]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.12.08-22.31.44:708][857]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.12.08-22.31.44:711][857]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.12.08-22.31.44:712][857]PIE: Server logged in
+[2023.12.08-22.31.44:712][857]PIE: Play in editor total start time 0.113 seconds.
+[2023.12.08-22.31.44:732][857]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.31.44:732][857]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.31.44:733][857]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.31.44:733][857]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.31.44:734][857]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.31.44:734][857]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.31.44:735][857]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.31.44:735][857]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.31.44:735][857]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.31.44:736][857]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.31.44:737][857]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.31.47:579][ 28]LogBlueprintUserMessages: [BP_Player0_C_0] OW!!!!!
+[2023.12.08-22.31.47:579][ 28]LogBlueprintUserMessages: [BP_Player0_C_0] OW!!!!!
+[2023.12.08-22.31.47:579][ 28]LogBlueprintUserMessages: [BP_Player0_C_0] OW!!!!!
+[2023.12.08-22.31.47:935][ 49]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.31.47:936][ 49]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.31.48:740][ 97]LogBlueprintUserMessages: [WB_Inventory_C_0] Inventory Update
+[2023.12.08-22.31.48:740][ 97]LogBlueprintUserMessages: [WB_Inventory_C_0] Inventory Update
+[2023.12.08-22.31.48:940][109]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.31.49:941][169]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.31.50:582][208]LogBlueprintUserMessages: [BP_Player0_C_0] OW!!!!!
+[2023.12.08-22.31.50:582][208]LogBlueprintUserMessages: [BP_Player0_C_0] OW!!!!!
+[2023.12.08-22.31.50:582][208]LogBlueprintUserMessages: [BP_Player0_C_0] OW!!!!!
+[2023.12.08-22.31.50:955][230]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.31.50:955][230]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.31.51:533][265]LogBlueprintUserMessages: [WB_Inventory_C_1] Inventory Update
+[2023.12.08-22.31.51:533][265]LogBlueprintUserMessages: [WB_Inventory_C_1] Inventory Update
+[2023.12.08-22.31.51:533][265]LogBlueprintUserMessages: [WB_Inventory_C_1] Inventory Update
+[2023.12.08-22.31.51:533][265]LogBlueprintUserMessages: [WB_Inventory_C_1] Inventory Update
+[2023.12.08-22.31.51:533][265]LogBlueprintUserMessages: [WB_Inventory_C_1] Inventory Update
+[2023.12.08-22.31.51:533][265]LogBlueprintUserMessages: [WB_Inventory_C_1] Inventory Update
+[2023.12.08-22.31.52:955][350]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.31.53:482][380]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.08-22.31.53:482][380]LogWorld: BeginTearingDown for /Game/UEDPIE_0_TestLevel
+[2023.12.08-22.31.53:482][380]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2023.12.08-22.31.53:482][380]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.08-22.31.53:486][380]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.08-22.31.53:492][380]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.08-22.31.53:513][380]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.08-22.31.53:513][380]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2023.12.08-22.31.53:513][380]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.12.08-22.31.53:516][380]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.12.08-22.31.53:533][380]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2023.12.08-22.31.53:552][380]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.31.53:553][380]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.31.53:554][380]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.31.53:554][380]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.31.53:554][380]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.31.53:555][380]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.31.53:555][380]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.31.53:555][380]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.31.53:556][380]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.31.53:556][380]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.31.53:557][380]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.31.53:569][381]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2023.12.08-22.32.01:971][617]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.08-22.32.01:988][617]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.08-22.32.01:988][617]PIE: New page: PIE session: TestLevel (Dec 8, 2023, 10:32:01 AM)
+[2023.12.08-22.32.01:988][617]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2023.12.08-22.32.01:992][617]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005192s)
+[2023.12.08-22.32.01:992][617]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.005238s)
+[2023.12.08-22.32.01:992][617]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.08-22.32.01:992][617]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.08-22.32.01:993][617]LogAIModule: Creating AISystem for world TestLevel
+[2023.12.08-22.32.01:995][617]LogPlayLevel: PIE: World Init took: (0.001736s)
+[2023.12.08-22.32.02:017][617]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2023.12.08-22.32.02:019][617]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2023.12.08-22.32.02:019][617]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.08-22.32.02:019][617]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.08-22.32.02:019][617]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.08-22.32.02:019][617]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.08-22.32.02:019][617]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.12.08-22.32.02:019][617]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.12.08-22.32.02:019][617]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.12.08-22.32.02:019][617]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.08-22.32.02:020][617]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.08-22.32.02:020][617]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.08-22.32.02:020][617]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.08-22.32.02:023][617]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.08-22.32.02:082][617]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.12.08-22.32.02:082][617]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.08-22.32.02:082][617]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.08-22.32.02:082][617]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.08-22.32.02:083][617]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2023.12.08-22.32.02:083][617]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2023.12.08-22.32.02:086][617]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2023.12.08-22.32.02:086][617]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2023.12.08-22.32.02:086][617]LogInit: FAudioDevice initialized with ID 5.
+[2023.12.08-22.32.02:086][617]LogAudio: Display: Audio Device (ID: 5) registered with world 'TestLevel'.
+[2023.12.08-22.32.02:086][617]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2023.12.08-22.32.02:091][617]LogLoad: Game class is 'BP_GameMode_C'
+[2023.12.08-22.32.02:094][617]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2023.12.08-16.32.02
+[2023.12.08-22.32.02:095][617]LogWorld: Bringing up level for play took: 0.002876
+[2023.12.08-22.32.02:098][617]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2023.12.08-22.32.02:099][617]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.12.08-22.32.02:099][617]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.12.08-22.32.02:099][617]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.12.08-22.32.02:103][617]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.12.08-22.32.02:103][617]PIE: Server logged in
+[2023.12.08-22.32.02:105][617]PIE: Play in editor total start time 0.118 seconds.
+[2023.12.08-22.32.02:115][617]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.32.02:116][617]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.32.02:116][617]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.32.02:116][617]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.32.02:117][617]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.32.02:118][617]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.32.02:118][617]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.32.02:119][617]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.32.02:120][617]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.32.02:120][617]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.32.02:123][617]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.32.03:902][723]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.08-22.32.03:902][723]LogWorld: BeginTearingDown for /Game/UEDPIE_0_TestLevel
+[2023.12.08-22.32.03:902][723]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2023.12.08-22.32.03:902][723]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.08-22.32.03:906][723]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.08-22.32.03:913][723]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.08-22.32.03:937][723]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.08-22.32.03:938][723]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2023.12.08-22.32.03:938][723]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.12.08-22.32.03:940][723]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.12.08-22.32.03:955][723]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2023.12.08-22.32.03:972][723]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.32.03:973][723]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.32.03:974][723]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.32.03:974][723]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.32.03:975][723]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.32.03:975][723]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.32.03:976][723]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.32.03:976][723]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.32.03:976][723]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.32.03:977][723]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.32.03:978][723]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.32.03:993][724]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2023.12.08-22.32.06:476][871]LogViewport: Scene viewport resized to 1529x896, mode Windowed.
+[2023.12.08-22.32.11:641][169]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.08-22.32.11:665][170]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.08-22.32.11:682][171]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.08-22.32.11:706][172]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.08-22.32.40:405][989]LogProperty: Warning: ObjectProperty /Script/InputBlueprintNodes.K2Node_EnhancedInputAction:InputAction: unresolved reference to '/Script/EnhancedInput.InputAction'"/Game/TopDown/Input/Actions/IA_SetDestination_Click.IA_SetDestination_Click"''
+[2023.12.08-22.32.48:484][989]LogSlate: Window 'Fix Self Context Function References' being destroyed
+[2023.12.08-22.32.58:090][559]LogEditorTransaction: Undo Move Node
+[2023.12.08-22.33.10:132][134]BlueprintLog: New page: Compile BP_GameMode
+[2023.12.08-22.33.10:144][134]LogBlueprint: Warning: [AssetLog] C:\Users\space\OneDrive\Desktop\Projects\Final-Project\Content\CoreSystems\BP_GameMode.uasset: [Compiler] Get Location Under Cursor  was pruned because its Exec pin is not connected, the connected value is not available and will instead be read as default
+[2023.12.08-22.33.10:144][134]LogBlueprint: Warning: [AssetLog] C:\Users\space\OneDrive\Desktop\Projects\Final-Project\Content\CoreSystems\BP_GameMode.uasset: [Compiler] EnhancedInputAction None  does not have a valid Input Action asset!!
+[2023.12.08-22.33.10:145][134]LogBlueprint: Warning: [AssetLog] C:\Users\space\OneDrive\Desktop\Projects\Final-Project\Content\CoreSystems\BP_GameMode.uasset: [Compiler] Could not find a variable named "CachedDestination" in 'BP_GameMode_C'.
+Make sure 'BP_GameMode_C' has been compiled for  Set CachedDestination
+[2023.12.08-22.33.10:145][134]LogBlueprint: Warning: [AssetLog] C:\Users\space\OneDrive\Desktop\Projects\Final-Project\Content\CoreSystems\BP_GameMode.uasset: [Compiler] Could not find a variable named "CachedDestination" in 'BP_GameMode_C'.
+Make sure 'BP_GameMode_C' has been compiled for  Get CachedDestination
+[2023.12.08-22.33.10:145][134]LogBlueprint: Warning: [AssetLog] C:\Users\space\OneDrive\Desktop\Projects\Final-Project\Content\CoreSystems\BP_GameMode.uasset: [Compiler] Could not find a variable named "PressedThreshold" in 'BP_GameMode_C'.
+Make sure 'BP_GameMode_C' has been compiled for  Get PressedThreshold
+[2023.12.08-22.33.10:145][134]LogBlueprint: Error: [AssetLog] C:\Users\space\OneDrive\Desktop\Projects\Final-Project\Content\CoreSystems\BP_GameMode.uasset: [Compiler] EnhancedInputActionEvent references invalid 'null' action for  EnhancedInputAction None
+[2023.12.08-22.33.10:180][134]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2023.12.08-22.33.57:787][231]LogEditorTransaction: Undo Move Node
+[2023.12.08-22.33.58:074][238]LogEditorTransaction: Undo Move Node
+[2023.12.08-22.33.59:122][290]Cmd: TRANSACTION UNDO
+[2023.12.08-22.33.59:122][290]LogEditorTransaction: Undo Move Node
+[2023.12.08-22.33.59:441][307]Cmd: TRANSACTION UNDO
+[2023.12.08-22.33.59:441][307]LogEditorTransaction: Undo Move Nodes
+[2023.12.08-22.33.59:743][323]Cmd: TRANSACTION UNDO
+[2023.12.08-22.33.59:743][323]LogEditorTransaction: Undo Comment Changed
+[2023.12.08-22.34.01:030][398]LogEditorTransaction: Undo Paste clipboard contents
+[2023.12.08-22.34.01:239][408]LogEditorTransaction: Undo Paste clipboard contents
+[2023.12.08-22.34.04:602][607]BlueprintLog: New page: Compile BP_GameMode
+[2023.12.08-22.34.04:647][607]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2023.12.08-22.34.05:052][629]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.08-22.34.05:134][629]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CoreSystems/BP_GameMode" FILE="../../../../../../Users/space/OneDrive/Desktop/Projects/Final-Project/Content/CoreSystems/BP_GameMode.uasset" SILENT=true
+[2023.12.08-22.34.05:144][629]LogPackageLocalizationCache: Processed 44 localized package path(s) for 1 prioritized culture(s) in 0.010405 seconds
+[2023.12.08-22.34.05:150][629]LogSerialization: UsePackageTrailer: 'true'
+[2023.12.08-22.34.05:153][629]LogSavePackage: Moving output files for package: /Game/CoreSystems/BP_GameMode
+[2023.12.08-22.34.05:154][629]LogSavePackage: Moving '../../../../../../Users/space/OneDrive/Desktop/Projects/Final-Project/Saved/BP_GameModeF36A2D684DDFA41613F020B7F992E871.tmp' to '../../../../../../Users/space/OneDrive/Desktop/Projects/Final-Project/Content/CoreSystems/BP_GameMode.uasset'
+[2023.12.08-22.34.05:166][629]LogFileHelpers: InternalPromptForCheckoutAndSave took 113 ms
+[2023.12.08-22.34.05:172][629]AssetCheck: New page: Asset Save: BP_GameMode
+[2023.12.08-22.34.05:173][629]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/CoreSystems/BP_GameMode.BP_GameMode
+[2023.12.08-22.34.06:864][728]LogViewport: Scene viewport resized to 1803x1068, mode Windowed.
+[2023.12.08-22.34.09:244][870]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2023.12.08-22.34.09:244][870]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.08-22.34.09:747][899]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.34.09:748][899]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.34.09:748][899]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.34.09:748][899]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.34.09:749][899]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.34.09:749][899]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.34.09:749][899]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.34.09:749][899]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.34.09:750][899]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.34.09:750][899]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.34.09:751][899]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.34.59:808][390]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.12.08-22.34.59:808][390]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2023.12.08-22.34.59:808][390]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.08-22.34.59:860][390]LogViewport: Scene viewport resized to 750x916, mode Windowed.
+[2023.12.08-22.34.59:868][390]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.34.59:884][391]LogViewport: Scene viewport resized to 750x907, mode Windowed.
+[2023.12.08-22.34.59:927][392]LogViewport: Scene viewport resized to 750x891, mode Windowed.
+[2023.12.08-22.35.00:610][429]LogViewport: Scene viewport resized to 750x921, mode Windowed.
+[2023.12.08-22.35.00:637][430]LogViewport: Scene viewport resized to 750x912, mode Windowed.
+[2023.12.08-22.35.00:662][431]LogViewport: Scene viewport resized to 750x902, mode Windowed.
+[2023.12.08-22.35.00:690][432]LogViewport: Scene viewport resized to 750x892, mode Windowed.
+[2023.12.08-22.35.00:718][433]LogViewport: Scene viewport resized to 750x891, mode Windowed.
+[2023.12.08-22.35.25:364][633]LogViewport: Scene viewport resized to 1529x896, mode Windowed.
+[2023.12.08-22.35.27:806][771]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2023.12.08-22.35.27:812][771]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/TestLevel' took 0.028
+[2023.12.08-22.35.27:813][771]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Player_Character/BP_Player0] ([2] browsable assets)...
+[2023.12.08-22.35.27:813][771]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.08-22.35.27:835][771]OBJ SavePackage:     Rendered thumbnail for [BlueprintGeneratedClass /Game/Player_Character/BP_Player0.BP_Player0_C]
+[2023.12.08-22.35.27:840][771]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Player_Character/BP_Player0.BP_Player0]
+[2023.12.08-22.35.27:840][771]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player_Character/BP_Player0]
+[2023.12.08-22.35.27:864][771]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Player_Character/BP_Player0_Auto1
+[2023.12.08-22.35.27:864][771]LogSavePackage: Moving '../../../../../../Users/space/OneDrive/Desktop/Projects/Final-Project/Saved/BP_Player0_Auto14628C42040D4F41B8569A2BFEDEE1974.tmp' to '../../../../../../Users/space/OneDrive/Desktop/Projects/Final-Project/Saved/Autosaves/Game/Player_Character/BP_Player0_Auto1.uasset'
+[2023.12.08-22.35.27:865][771]LogFileHelpers: Auto-saving content packages took 0.053
+[2023.12.08-22.35.30:671][939]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Base'.'
+[2023.12.08-22.35.30:671][939]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Mask'.'
+[2023.12.08-22.35.43:548][684]LogSlate: Window 'Color Picker' being destroyed
+[2023.12.08-22.35.47:032][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/AC_InventoryComponent.AC_InventoryComponent_C' ref from Metadata '/Game/InventoryComponet/AC_InventoryComponent.PackageMetaData'
+[2023.12.08-22.35.47:032][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/AC_InventoryComponent.AC_InventoryComponent:EventGraph.K2Node_Event_2' ref from Metadata '/Game/InventoryComponet/AC_InventoryComponent.PackageMetaData'
+[2023.12.08-22.35.47:032][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/AC_InventoryComponent.AC_InventoryComponent:EventGraph.K2Node_Event_1' ref from Metadata '/Game/InventoryComponet/AC_InventoryComponent.PackageMetaData'
+[2023.12.08-22.35.47:032][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/AC_InventoryComponent.AC_InventoryComponent:F_ShowInventory.K2Node_FunctionEntry_0' ref from Metadata '/Game/InventoryComponet/AC_InventoryComponent.PackageMetaData'
+[2023.12.08-22.35.47:032][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/AC_InventoryComponent.AC_InventoryComponent:F Hide Inventory.K2Node_FunctionEntry_0' ref from Metadata '/Game/InventoryComponet/AC_InventoryComponent.PackageMetaData'
+[2023.12.08-22.35.47:032][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/AC_InventoryComponent.AC_InventoryComponent:F_AddItemToInventory.K2Node_FunctionEntry_0' ref from Metadata '/Game/InventoryComponet/AC_InventoryComponent.PackageMetaData'
+[2023.12.08-22.35.47:032][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/AC_InventoryComponent.SKEL_AC_InventoryComponent_C:ReceiveBeginPlay' ref from Metadata '/Game/InventoryComponet/AC_InventoryComponent.PackageMetaData'
+[2023.12.08-22.35.47:032][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/AC_InventoryComponent.SKEL_AC_InventoryComponent_C:ReceiveTick' ref from Metadata '/Game/InventoryComponet/AC_InventoryComponent.PackageMetaData'
+[2023.12.08-22.35.47:032][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/AC_InventoryComponent.SKEL_AC_InventoryComponent_C:Server_PlaySound' ref from Metadata '/Game/InventoryComponet/AC_InventoryComponent.PackageMetaData'
+[2023.12.08-22.35.47:032][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/AC_InventoryComponent.SKEL_AC_InventoryComponent_C:MC_PlaySound' ref from Metadata '/Game/InventoryComponet/AC_InventoryComponent.PackageMetaData'
+[2023.12.08-22.35.47:032][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/AC_InventoryComponent.SKEL_AC_InventoryComponent_C:Client_SpawnItem' ref from Metadata '/Game/InventoryComponet/AC_InventoryComponent.PackageMetaData'
+[2023.12.08-22.35.47:032][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/AC_InventoryComponent.SKEL_AC_InventoryComponent_C:Server_SpawnItem' ref from Metadata '/Game/InventoryComponet/AC_InventoryComponent.PackageMetaData'
+[2023.12.08-22.35.47:032][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/AC_InventoryComponent.SKEL_AC_InventoryComponent_C:F_SpawnItem' ref from Metadata '/Game/InventoryComponet/AC_InventoryComponent.PackageMetaData'
+[2023.12.08-22.35.47:032][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/AC_InventoryComponent.SKEL_AC_InventoryComponent_C' ref from Metadata '/Game/InventoryComponet/AC_InventoryComponent.PackageMetaData'
+[2023.12.08-22.35.47:032][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/AC_InventoryComponent.AC_InventoryComponent_C:F_SpawnItem' ref from Metadata '/Game/InventoryComponet/AC_InventoryComponent.PackageMetaData'
+[2023.12.08-22.35.47:032][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/AC_InventoryComponent.AC_InventoryComponent_C:Server_SpawnItem' ref from Metadata '/Game/InventoryComponet/AC_InventoryComponent.PackageMetaData'
+[2023.12.08-22.35.47:032][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/AC_InventoryComponent.AC_InventoryComponent_C:Client_SpawnItem' ref from Metadata '/Game/InventoryComponet/AC_InventoryComponent.PackageMetaData'
+[2023.12.08-22.35.47:032][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/AC_InventoryComponent.AC_InventoryComponent_C:MC_PlaySound' ref from Metadata '/Game/InventoryComponet/AC_InventoryComponent.PackageMetaData'
+[2023.12.08-22.35.47:032][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/AC_InventoryComponent.AC_InventoryComponent_C:Server_PlaySound' ref from Metadata '/Game/InventoryComponet/AC_InventoryComponent.PackageMetaData'
+[2023.12.08-22.35.47:038][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/BP_InventoryInterface.BP_InventoryInterface_C' ref from Metadata '/Game/InventoryComponet/BP_InventoryInterface.PackageMetaData'
+[2023.12.08-22.35.47:038][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/BP_InventoryInterface.BP_InventoryInterface:F_AddItem.K2Node_FunctionEntry_0' ref from Metadata '/Game/InventoryComponet/BP_InventoryInterface.PackageMetaData'
+[2023.12.08-22.35.47:038][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/BP_InventoryInterface.BP_InventoryInterface:F_SpawnItem.K2Node_FunctionEntry_0' ref from Metadata '/Game/InventoryComponet/BP_InventoryInterface.PackageMetaData'
+[2023.12.08-22.35.47:038][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/BP_InventoryInterface.SKEL_BP_InventoryInterface_C:F_SpawnItem' ref from Metadata '/Game/InventoryComponet/BP_InventoryInterface.PackageMetaData'
+[2023.12.08-22.35.47:038][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/BP_InventoryInterface.SKEL_BP_InventoryInterface_C' ref from Metadata '/Game/InventoryComponet/BP_InventoryInterface.PackageMetaData'
+[2023.12.08-22.35.47:038][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/BP_InventoryInterface.BP_InventoryInterface_C:F_SpawnItem' ref from Metadata '/Game/InventoryComponet/BP_InventoryInterface.PackageMetaData'
+[2023.12.08-22.35.47:043][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/Widgets/WB_InventorySlot.WB_InventorySlot_C' ref from Metadata '/Game/InventoryComponet/Widgets/WB_InventorySlot.PackageMetaData'
+[2023.12.08-22.35.47:043][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/Widgets/WB_InventorySlot.WB_InventorySlot:EventGraph.K2Node_Event_0' ref from Metadata '/Game/InventoryComponet/Widgets/WB_InventorySlot.PackageMetaData'
+[2023.12.08-22.35.47:044][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/Widgets/WB_InventorySlot.WB_InventorySlot:EventGraph.K2Node_Event_1' ref from Metadata '/Game/InventoryComponet/Widgets/WB_InventorySlot.PackageMetaData'
+[2023.12.08-22.35.47:044][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/Widgets/WB_InventorySlot.WB_InventorySlot:EventGraph.K2Node_Event_2' ref from Metadata '/Game/InventoryComponet/Widgets/WB_InventorySlot.PackageMetaData'
+[2023.12.08-22.35.47:044][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/Widgets/WB_InventorySlot.WB_InventorySlot:F_update.K2Node_FunctionEntry_0' ref from Metadata '/Game/InventoryComponet/Widgets/WB_InventorySlot.PackageMetaData'
+[2023.12.08-22.35.47:044][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/Widgets/WB_InventorySlot.WB_InventorySlot:OnMouseButtonDown.K2Node_FunctionResult_0' ref from Metadata '/Game/InventoryComponet/Widgets/WB_InventorySlot.PackageMetaData'
+[2023.12.08-22.35.47:044][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/Widgets/WB_InventorySlot.WB_InventorySlot:OnMouseButtonDown.K2Node_FunctionEntry_0' ref from Metadata '/Game/InventoryComponet/Widgets/WB_InventorySlot.PackageMetaData'
+[2023.12.08-22.35.47:044][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/Widgets/WB_InventorySlot.WB_InventorySlot:OnDragDetected.K2Node_FunctionResult_0' ref from Metadata '/Game/InventoryComponet/Widgets/WB_InventorySlot.PackageMetaData'
+[2023.12.08-22.35.47:044][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/Widgets/WB_InventorySlot.WB_InventorySlot:OnDragDetected.K2Node_FunctionEntry_0' ref from Metadata '/Game/InventoryComponet/Widgets/WB_InventorySlot.PackageMetaData'
+[2023.12.08-22.35.47:044][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/Widgets/WB_InventorySlot.SKEL_WB_InventorySlot_C:PreConstruct' ref from Metadata '/Game/InventoryComponet/Widgets/WB_InventorySlot.PackageMetaData'
+[2023.12.08-22.35.47:044][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/Widgets/WB_InventorySlot.SKEL_WB_InventorySlot_C:Construct' ref from Metadata '/Game/InventoryComponet/Widgets/WB_InventorySlot.PackageMetaData'
+[2023.12.08-22.35.47:044][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/Widgets/WB_InventorySlot.SKEL_WB_InventorySlot_C:Tick' ref from Metadata '/Game/InventoryComponet/Widgets/WB_InventorySlot.PackageMetaData'
+[2023.12.08-22.35.47:044][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/Widgets/WB_InventorySlot.SKEL_WB_InventorySlot_C:OnMouseButtonDown' ref from Metadata '/Game/InventoryComponet/Widgets/WB_InventorySlot.PackageMetaData'
+[2023.12.08-22.35.47:044][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/Widgets/WB_InventorySlot.SKEL_WB_InventorySlot_C:OnDragDetected' ref from Metadata '/Game/InventoryComponet/Widgets/WB_InventorySlot.PackageMetaData'
+[2023.12.08-22.35.47:044][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/Widgets/WB_InventorySlot.SKEL_WB_InventorySlot_C' ref from Metadata '/Game/InventoryComponet/Widgets/WB_InventorySlot.PackageMetaData'
+[2023.12.08-22.35.47:044][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/Widgets/WB_InventorySlot.WB_InventorySlot_C:OnMouseButtonDown' ref from Metadata '/Game/InventoryComponet/Widgets/WB_InventorySlot.PackageMetaData'
+[2023.12.08-22.35.47:044][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/Widgets/WB_InventorySlot.WB_InventorySlot_C:OnDragDetected' ref from Metadata '/Game/InventoryComponet/Widgets/WB_InventorySlot.PackageMetaData'
+[2023.12.08-22.35.47:046][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/Widgets/WB_DropSlot.WB_DropSlot_C' ref from Metadata '/Game/InventoryComponet/Widgets/WB_DropSlot.PackageMetaData'
+[2023.12.08-22.35.47:046][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/Widgets/WB_DropSlot.WB_DropSlot:EventGraph.K2Node_Event_0' ref from Metadata '/Game/InventoryComponet/Widgets/WB_DropSlot.PackageMetaData'
+[2023.12.08-22.35.47:046][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/Widgets/WB_DropSlot.WB_DropSlot:EventGraph.K2Node_Event_1' ref from Metadata '/Game/InventoryComponet/Widgets/WB_DropSlot.PackageMetaData'
+[2023.12.08-22.35.47:046][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/Widgets/WB_DropSlot.WB_DropSlot:EventGraph.K2Node_Event_2' ref from Metadata '/Game/InventoryComponet/Widgets/WB_DropSlot.PackageMetaData'
+[2023.12.08-22.35.47:046][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/Widgets/WB_DropSlot.WB_DropSlot:OnDrop.K2Node_FunctionEntry_0' ref from Metadata '/Game/InventoryComponet/Widgets/WB_DropSlot.PackageMetaData'
+[2023.12.08-22.35.47:046][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/Widgets/WB_DropSlot.WB_DropSlot:OnDrop.K2Node_FunctionResult_0' ref from Metadata '/Game/InventoryComponet/Widgets/WB_DropSlot.PackageMetaData'
+[2023.12.08-22.35.47:046][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/Widgets/WB_DropSlot.SKEL_WB_DropSlot_C:PreConstruct' ref from Metadata '/Game/InventoryComponet/Widgets/WB_DropSlot.PackageMetaData'
+[2023.12.08-22.35.47:046][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/Widgets/WB_DropSlot.SKEL_WB_DropSlot_C:Construct' ref from Metadata '/Game/InventoryComponet/Widgets/WB_DropSlot.PackageMetaData'
+[2023.12.08-22.35.47:046][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/Widgets/WB_DropSlot.SKEL_WB_DropSlot_C:Tick' ref from Metadata '/Game/InventoryComponet/Widgets/WB_DropSlot.PackageMetaData'
+[2023.12.08-22.35.47:046][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/Widgets/WB_DropSlot.SKEL_WB_DropSlot_C:Server_SpawnActorFromClass' ref from Metadata '/Game/InventoryComponet/Widgets/WB_DropSlot.PackageMetaData'
+[2023.12.08-22.35.47:046][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/Widgets/WB_DropSlot.SKEL_WB_DropSlot_C:OnDrop' ref from Metadata '/Game/InventoryComponet/Widgets/WB_DropSlot.PackageMetaData'
+[2023.12.08-22.35.47:046][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/Widgets/WB_DropSlot.SKEL_WB_DropSlot_C' ref from Metadata '/Game/InventoryComponet/Widgets/WB_DropSlot.PackageMetaData'
+[2023.12.08-22.35.47:046][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/Widgets/WB_DropSlot.WB_DropSlot_C:OnDrop' ref from Metadata '/Game/InventoryComponet/Widgets/WB_DropSlot.PackageMetaData'
+[2023.12.08-22.35.47:048][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/Widgets/WB_Inventory.WB_Inventory_C' ref from Metadata '/Game/InventoryComponet/Widgets/WB_Inventory.PackageMetaData'
+[2023.12.08-22.35.47:048][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/Widgets/WB_Inventory.WB_Inventory:F_Update.K2Node_FunctionEntry_0' ref from Metadata '/Game/InventoryComponet/Widgets/WB_Inventory.PackageMetaData'
+[2023.12.08-22.35.47:048][880]LogMetaData: Removing '/Game/Player_Character/InventoryComponet/Widgets/WB_Inventory.SKEL_WB_Inventory_C' ref from Metadata '/Game/InventoryComponet/Widgets/WB_Inventory.PackageMetaData'
+[2023.12.08-22.35.47:050][880]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.08-22.35.47:152][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player_Character/BP_Player0" FILE="../../../../../../Users/space/OneDrive/Desktop/Projects/Final-Project/Content/Player_Character/BP_Player0.uasset" SILENT=true
+[2023.12.08-22.35.47:179][880]LogSavePackage: Moving output files for package: /Game/Player_Character/BP_Player0
+[2023.12.08-22.35.47:180][880]LogSavePackage: Moving '../../../../../../Users/space/OneDrive/Desktop/Projects/Final-Project/Saved/BP_Player07D1CAC204D7EF48559186286566BF48B.tmp' to '../../../../../../Users/space/OneDrive/Desktop/Projects/Final-Project/Content/Player_Character/BP_Player0.uasset'
+[2023.12.08-22.35.47:182][880]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.08-22.35.47:196][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Items/TestItem/BP_PropItem" FILE="../../../../../../Users/space/OneDrive/Desktop/Projects/Final-Project/Content/Items/TestItem/BP_PropItem.uasset" SILENT=true
+[2023.12.08-22.35.47:204][880]LogSavePackage: Moving output files for package: /Game/Items/TestItem/BP_PropItem
+[2023.12.08-22.35.47:205][880]LogSavePackage: Moving '../../../../../../Users/space/OneDrive/Desktop/Projects/Final-Project/Saved/BP_PropItemD50BBEAD413AB114AE1F48927814232D.tmp' to '../../../../../../Users/space/OneDrive/Desktop/Projects/Final-Project/Content/Items/TestItem/BP_PropItem.uasset'
+[2023.12.08-22.35.47:218][880]LogSavePackage: Moving output files for package: /Game/Player_Character/InventoryComponet/AC_InventoryComponent
+[2023.12.08-22.35.47:218][880]LogSavePackage: Moving '../../../../../../Users/space/OneDrive/Desktop/Projects/Final-Project/Saved/AC_InventoryComponentFC444C5A4D805ABC7096DBA4D21D9DD2.tmp' to '../../../../../../Users/space/OneDrive/Desktop/Projects/Final-Project/Content/Player_Character/InventoryComponet/AC_InventoryComponent.uasset'
+[2023.12.08-22.35.47:231][880]LogSavePackage: Moving output files for package: /Game/Player_Character/InventoryComponet/BP_InventoryInterface
+[2023.12.08-22.35.47:231][880]LogSavePackage: Moving '../../../../../../Users/space/OneDrive/Desktop/Projects/Final-Project/Saved/BP_InventoryInterface9647B9A3492D3D13720CB7883F16BC41.tmp' to '../../../../../../Users/space/OneDrive/Desktop/Projects/Final-Project/Content/Player_Character/InventoryComponet/BP_InventoryInterface.uasset'
+[2023.12.08-22.35.47:240][880]LogSavePackage: Moving output files for package: /Game/Player_Character/InventoryComponet/M_Transparent
+[2023.12.08-22.35.47:240][880]LogSavePackage: Moving '../../../../../../Users/space/OneDrive/Desktop/Projects/Final-Project/Saved/M_Transparent8F3DAAD34ECB80846D35279B37672E00.tmp' to '../../../../../../Users/space/OneDrive/Desktop/Projects/Final-Project/Content/Player_Character/InventoryComponet/M_Transparent.uasset'
+[2023.12.08-22.35.47:250][880]LogSavePackage: Moving output files for package: /Game/Player_Character/InventoryComponet/Widgets/WB_InventorySlot
+[2023.12.08-22.35.47:250][880]LogSavePackage: Moving '../../../../../../Users/space/OneDrive/Desktop/Projects/Final-Project/Saved/WB_InventorySlotCD7391F5420AA65817E42D9979F37C81.tmp' to '../../../../../../Users/space/OneDrive/Desktop/Projects/Final-Project/Content/Player_Character/InventoryComponet/Widgets/WB_InventorySlot.uasset'
+[2023.12.08-22.35.47:268][880]LogSavePackage: Moving output files for package: /Game/Player_Character/InventoryComponet/Widgets/WB_DropSlot
+[2023.12.08-22.35.47:268][880]LogSavePackage: Moving '../../../../../../Users/space/OneDrive/Desktop/Projects/Final-Project/Saved/WB_DropSlot4D7D4BC44364D748A0A819B5E3270B36.tmp' to '../../../../../../Users/space/OneDrive/Desktop/Projects/Final-Project/Content/Player_Character/InventoryComponet/Widgets/WB_DropSlot.uasset'
+[2023.12.08-22.35.47:282][880]LogSavePackage: Moving output files for package: /Game/Player_Character/InventoryComponet/Widgets/WB_Inventory
+[2023.12.08-22.35.47:282][880]LogSavePackage: Moving '../../../../../../Users/space/OneDrive/Desktop/Projects/Final-Project/Saved/WB_Inventory3EBD5ECB442A33D9B8CC349A8130A779.tmp' to '../../../../../../Users/space/OneDrive/Desktop/Projects/Final-Project/Content/Player_Character/InventoryComponet/Widgets/WB_Inventory.uasset'
+[2023.12.08-22.35.47:300][880]LogFileHelpers: InternalPromptForCheckoutAndSave took 250 ms (total: 363 ms)
+[2023.12.08-22.35.47:401][880]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2023.12.08-22.35.47:426][880]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2023.12.08-22.35.47:448][880]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2023.12.08-22.35.47:520][880]AssetCheck: New page: Asset Save: multiple assets
+[2023.12.08-22.35.47:521][880]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Player_Character/InventoryComponet/AC_InventoryComponent.AC_InventoryComponent
+[2023.12.08-22.35.47:521][880]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Player_Character/InventoryComponet/BP_InventoryInterface.BP_InventoryInterface
+[2023.12.08-22.35.47:521][880]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Items/TestItem/BP_PropItem.BP_PropItem
+[2023.12.08-22.35.47:521][880]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Player_Character/InventoryComponet/M_Transparent.M_Transparent
+[2023.12.08-22.35.47:521][880]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Player_Character/InventoryComponet/Widgets/WB_InventorySlot.WB_InventorySlot
+[2023.12.08-22.35.47:521][880]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Player_Character/InventoryComponet/Widgets/WB_DropSlot.WB_DropSlot
+[2023.12.08-22.35.47:521][880]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Player_Character/InventoryComponet/Widgets/WB_Inventory.WB_Inventory
+[2023.12.08-22.35.47:521][880]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Player_Character/BP_Player0.BP_Player0
+[2023.12.08-22.36.12:030][297]LogSlate: Window 'Color Picker' being destroyed
+[2023.12.08-22.36.23:370][956]LogSlate: Window 'Color Picker' being destroyed
+[2023.12.08-22.36.26:512][143]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Player_Character/InventoryComponet/BP_InventoryInterface.BP_InventoryInterface
+[2023.12.08-22.36.26:512][143]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.08-22.36.26:512][143]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.08-22.36.28:855][274]LogSlate: Window 'BP_InventoryInterface' being destroyed
+[2023.12.08-22.36.28:863][274]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2023.12.08-22.36.28:863][274]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.08-22.36.29:803][329]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Player_Character/InventoryComponet/AC_InventoryComponent.AC_InventoryComponent
+[2023.12.08-22.36.29:803][329]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.08-22.36.29:803][329]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.08-22.36.39:182][792]LogSlate: Window 'AC_InventoryComponent' being destroyed
+[2023.12.08-22.36.39:188][792]LogSlate: Window 'AC_InventoryComponent' being destroyed
+[2023.12.08-22.36.39:192][792]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2023.12.08-22.36.39:192][792]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.08-22.36.40:324][857]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.08-22.36.40:329][857]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.12.08-22.36.40:338][857]LogPlayLevel: [PlayLevel] Compiling BP_PropItem before play...
+[2023.12.08-22.36.40:339][857]LogPlayLevel: [PlayLevel]   Compiling BP_Potion as a dependent...
+[2023.12.08-22.36.40:339][857]LogPlayLevel: [PlayLevel]   Compiling BP_Potion_Acid as a dependent...
+[2023.12.08-22.36.40:339][857]LogPlayLevel: [PlayLevel]   Compiling BP_Potion_Fire as a dependent...
+[2023.12.08-22.36.40:339][857]LogPlayLevel: [PlayLevel]   Compiling BP_Potion_Freeze as a dependent...
+[2023.12.08-22.36.40:339][857]LogPlayLevel: [PlayLevel]   Compiling BP_Potion_Healing as a dependent...
+[2023.12.08-22.36.40:391][857]LogPlayLevel: [PlayLevel] Compiling BP_Player0 before play...
+[2023.12.08-22.36.40:457][857]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2023.12.08-22.36.40:465][857]LogPlayLevel: PlayLevel: Blueprint regeneration took 134 ms (7 blueprints)
+[2023.12.08-22.36.40:465][857]PIE: New page: PIE session: TestLevel (Dec 8, 2023, 10:36:40 AM)
+[2023.12.08-22.36.40:491][857]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2023.12.08-22.36.40:495][857]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005065s)
+[2023.12.08-22.36.40:496][857]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.005124s)
+[2023.12.08-22.36.40:496][857]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.08-22.36.40:496][857]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.08-22.36.40:496][857]LogAIModule: Creating AISystem for world TestLevel
+[2023.12.08-22.36.40:496][857]LogPlayLevel: PIE: World Init took: (0.000771s)
+[2023.12.08-22.36.40:516][857]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2023.12.08-22.36.40:517][857]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2023.12.08-22.36.40:517][857]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.08-22.36.40:517][857]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.08-22.36.40:517][857]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.08-22.36.40:517][857]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.08-22.36.40:517][857]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.12.08-22.36.40:517][857]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.12.08-22.36.40:517][857]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.12.08-22.36.40:517][857]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.08-22.36.40:517][857]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.08-22.36.40:517][857]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.08-22.36.40:517][857]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.08-22.36.40:520][857]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.08-22.36.40:572][857]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.12.08-22.36.40:572][857]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.08-22.36.40:572][857]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.08-22.36.40:572][857]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.08-22.36.40:573][857]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2023.12.08-22.36.40:573][857]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2023.12.08-22.36.40:576][857]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2023.12.08-22.36.40:576][857]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2023.12.08-22.36.40:576][857]LogInit: FAudioDevice initialized with ID 6.
+[2023.12.08-22.36.40:576][857]LogAudio: Display: Audio Device (ID: 6) registered with world 'TestLevel'.
+[2023.12.08-22.36.40:576][857]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2023.12.08-22.36.40:578][857]LogLoad: Game class is 'BP_GameMode_C'
+[2023.12.08-22.36.40:580][857]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2023.12.08-16.36.40
+[2023.12.08-22.36.40:580][857]LogWorld: Bringing up level for play took: 0.002113
+[2023.12.08-22.36.40:582][857]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2023.12.08-22.36.40:584][857]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.12.08-22.36.40:584][857]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.12.08-22.36.40:584][857]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.12.08-22.36.40:586][857]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.12.08-22.36.40:586][857]PIE: Server logged in
+[2023.12.08-22.36.40:587][857]PIE: Play in editor total start time 0.257 seconds.
+[2023.12.08-22.36.40:596][857]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.36.40:597][857]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.36.40:597][857]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.36.40:598][857]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.36.40:598][857]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.36.40:598][857]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.36.40:600][857]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.36.40:600][857]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.36.40:600][857]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.36.40:601][857]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.36.40:601][857]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.36.40:602][857]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.36.41:322][897]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.08-22.36.41:322][897]LogWorld: BeginTearingDown for /Game/UEDPIE_0_TestLevel
+[2023.12.08-22.36.41:322][897]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2023.12.08-22.36.41:322][897]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.08-22.36.41:325][897]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.08-22.36.41:330][897]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.08-22.36.41:348][897]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.08-22.36.41:348][897]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2023.12.08-22.36.41:350][897]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.12.08-22.36.41:352][897]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.12.08-22.36.41:368][897]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2023.12.08-22.36.41:388][897]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.36.41:389][897]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.36.41:389][897]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.36.41:389][897]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.36.41:391][897]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.36.41:391][897]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.36.41:391][897]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.36.41:392][897]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.36.41:392][897]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.36.41:392][897]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.36.41:392][897]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.36.41:394][897]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.36.41:406][898]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2023.12.08-22.36.42:998][990]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Player_Character/InventoryComponet/Widgets/WB_InventorySlot.WB_InventorySlot
+[2023.12.08-22.36.42:998][990]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.08-22.36.42:998][990]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.08-22.36.43:008][990]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.08-22.36.43:008][990]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.08-22.36.43:016][990]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2023.12.08-22.36.43:278][990]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find SlateColor 'Foreground'.'
+[2023.12.08-22.36.43:287][990]LogSlate: Took 0.007072 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.12.08-22.36.45:557][114]LogSlate: Window 'WB_InventorySlot' being destroyed
+[2023.12.08-22.36.46:722][183]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Player_Character/InventoryComponet/Widgets/WB_Inventory.WB_Inventory
+[2023.12.08-22.36.46:722][183]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.08-22.36.46:722][183]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.08-22.36.46:731][183]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.08-22.36.46:731][183]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.08-22.36.49:369][329]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Player_Character/InventoryComponet/Widgets/WB_DropSlot.WB_DropSlot
+[2023.12.08-22.36.49:370][329]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.08-22.36.49:370][329]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.08-22.36.49:377][329]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.08-22.36.49:377][329]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.08-22.36.51:486][448]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Player_Character/InventoryComponet/AC_InventoryComponent.AC_InventoryComponent
+[2023.12.08-22.36.51:486][448]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.08-22.36.51:486][448]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.08-22.37.23:277][343]BlueprintLog: New page: Compile WB_InventorySlot
+[2023.12.08-22.37.23:322][343]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2023.12.08-22.37.40:521][369]BlueprintLog: New page: Compile WB_InventorySlot
+[2023.12.08-22.37.40:544][369]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2023.12.08-22.37.40:975][391]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.08-22.37.41:068][391]LogSavePackage: Moving output files for package: /Game/Player_Character/InventoryComponet/Widgets/WB_InventorySlot
+[2023.12.08-22.37.41:069][391]LogSavePackage: Moving '../../../../../../Users/space/OneDrive/Desktop/Projects/Final-Project/Saved/WB_InventorySlot8C42EE5F41C7AD97D6E0818BACD3CCD9.tmp' to '../../../../../../Users/space/OneDrive/Desktop/Projects/Final-Project/Content/Player_Character/InventoryComponet/Widgets/WB_InventorySlot.uasset'
+[2023.12.08-22.37.41:077][391]LogFileHelpers: InternalPromptForCheckoutAndSave took 101 ms (total: 465 ms)
+[2023.12.08-22.37.41:083][391]AssetCheck: New page: Asset Save: WB_InventorySlot
+[2023.12.08-22.37.41:083][391]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Player_Character/InventoryComponet/Widgets/WB_InventorySlot.WB_InventorySlot
+[2023.12.08-22.37.56:418][309]BlueprintLog: New page: Compile WB_InventorySlot
+[2023.12.08-22.37.56:452][309]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2023.12.08-22.38.05:588][672]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2023.12.08-22.38.05:594][672]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.08-22.38.05:731][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestLevel" FILE="../../../../../../Users/space/OneDrive/Desktop/Projects/Final-Project/Content/TestLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.12.08-22.38.05:757][672]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2023.12.08-22.38.05:777][672]LogSavePackage: Moving output files for package: /Game/TestLevel
+[2023.12.08-22.38.05:780][672]LogSavePackage: Moving '../../../../../../Users/space/OneDrive/Desktop/Projects/Final-Project/Saved/TestLevel7D3B09394AE0880411A5E29500CCB003.tmp' to '../../../../../../Users/space/OneDrive/Desktop/Projects/Final-Project/Content/TestLevel.umap'
+[2023.12.08-22.38.05:792][672]LogFileHelpers: Saving map 'TestLevel' took 0.064
+[2023.12.08-22.38.05:808][672]LogSavePackage: Moving output files for package: /Game/Player_Character/InventoryComponet/Widgets/WB_InventorySlot
+[2023.12.08-22.38.05:810][672]LogSavePackage: Moving '../../../../../../Users/space/OneDrive/Desktop/Projects/Final-Project/Saved/WB_InventorySlot2AEF29AA4786A63D231D60A5F776577C.tmp' to '../../../../../../Users/space/OneDrive/Desktop/Projects/Final-Project/Content/Player_Character/InventoryComponet/Widgets/WB_InventorySlot.uasset'
+[2023.12.08-22.38.05:822][672]LogFileHelpers: InternalPromptForCheckoutAndSave took 227 ms (total: 692 ms)
+[2023.12.08-22.38.05:832][672]AssetCheck: New page: Asset Save: multiple assets
+[2023.12.08-22.38.05:832][672]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Player_Character/InventoryComponet/Widgets/WB_InventorySlot.WB_InventorySlot
+[2023.12.08-22.38.05:832][672]LogContentValidation: Display: Validating /Script/Engine.World /Game/TestLevel.TestLevel
+[2023.12.08-22.42.55:721][620]BlueprintLog: New page: Compile AC_InventoryComponent
+[2023.12.08-22.42.55:769][620]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2023.12.08-22.42.56:581][663]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.08-22.42.56:682][663]LogSavePackage: Moving output files for package: /Game/Player_Character/InventoryComponet/AC_InventoryComponent
+[2023.12.08-22.42.56:683][663]LogSavePackage: Moving '../../../../../../Users/space/OneDrive/Desktop/Projects/Final-Project/Saved/AC_InventoryComponent4876DAE047C9F99697253CAEA1BF2AB8.tmp' to '../../../../../../Users/space/OneDrive/Desktop/Projects/Final-Project/Content/Player_Character/InventoryComponet/AC_InventoryComponent.uasset'
+[2023.12.08-22.42.56:694][663]LogFileHelpers: InternalPromptForCheckoutAndSave took 112 ms (total: 805 ms)
+[2023.12.08-22.42.56:702][663]AssetCheck: New page: Asset Save: AC_InventoryComponent
+[2023.12.08-22.42.56:702][663]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Player_Character/InventoryComponet/AC_InventoryComponent.AC_InventoryComponent
+[2023.12.08-22.45.04:715][332]BlueprintLog: New page: Compile AC_InventoryComponent
+[2023.12.08-22.45.04:759][332]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2023.12.08-22.45.05:316][360]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.08-22.45.05:408][360]LogSavePackage: Moving output files for package: /Game/Player_Character/InventoryComponet/AC_InventoryComponent
+[2023.12.08-22.45.05:409][360]LogSavePackage: Moving '../../../../../../Users/space/OneDrive/Desktop/Projects/Final-Project/Saved/AC_InventoryComponent3E2ADFE14E4E7832ADFF0A9323305A13.tmp' to '../../../../../../Users/space/OneDrive/Desktop/Projects/Final-Project/Content/Player_Character/InventoryComponet/AC_InventoryComponent.uasset'
+[2023.12.08-22.45.05:419][360]LogFileHelpers: InternalPromptForCheckoutAndSave took 103 ms (total: 908 ms)
+[2023.12.08-22.45.05:426][360]AssetCheck: New page: Asset Save: AC_InventoryComponent
+[2023.12.08-22.45.05:426][360]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Player_Character/InventoryComponet/AC_InventoryComponent.AC_InventoryComponent
+[2023.12.08-22.45.47:432][871]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.08-22.45.47:438][871]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.08-22.45.47:438][871]PIE: New page: PIE session: TestLevel (Dec 8, 2023, 10:45:47 AM)
+[2023.12.08-22.45.47:438][871]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2023.12.08-22.45.47:444][871]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004548s)
+[2023.12.08-22.45.47:444][871]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.004585s)
+[2023.12.08-22.45.47:444][871]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.08-22.45.47:444][871]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.08-22.45.47:444][871]LogAIModule: Creating AISystem for world TestLevel
+[2023.12.08-22.45.47:444][871]LogPlayLevel: PIE: World Init took: (0.000772s)
+[2023.12.08-22.45.47:466][871]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2023.12.08-22.45.47:468][871]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2023.12.08-22.45.47:468][871]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.08-22.45.47:468][871]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.08-22.45.47:468][871]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.08-22.45.47:468][871]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.08-22.45.47:468][871]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.12.08-22.45.47:468][871]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.12.08-22.45.47:468][871]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.12.08-22.45.47:468][871]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.08-22.45.47:468][871]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.08-22.45.47:468][871]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.08-22.45.47:468][871]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.08-22.45.47:470][871]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.08-22.45.47:524][871]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.12.08-22.45.47:525][871]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.08-22.45.47:525][871]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.08-22.45.47:525][871]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.08-22.45.47:525][871]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2023.12.08-22.45.47:525][871]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2023.12.08-22.45.47:527][871]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2023.12.08-22.45.47:527][871]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2023.12.08-22.45.47:527][871]LogInit: FAudioDevice initialized with ID 7.
+[2023.12.08-22.45.47:527][871]LogAudio: Display: Audio Device (ID: 7) registered with world 'TestLevel'.
+[2023.12.08-22.45.47:527][871]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2023.12.08-22.45.47:529][871]LogLoad: Game class is 'BP_GameMode_C'
+[2023.12.08-22.45.47:532][871]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 60) at 2023.12.08-16.45.47
+[2023.12.08-22.45.47:533][871]LogWorld: Bringing up level for play took: 0.002163
+[2023.12.08-22.45.47:535][871]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2023.12.08-22.45.47:536][871]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.12.08-22.45.47:536][871]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.12.08-22.45.47:536][871]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.12.08-22.45.47:538][871]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.12.08-22.45.47:538][871]PIE: Server logged in
+[2023.12.08-22.45.47:538][871]PIE: Play in editor total start time 0.1 seconds.
+[2023.12.08-22.45.47:553][871]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.45.47:554][871]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.45.47:554][871]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.45.47:554][871]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.45.47:555][871]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.45.47:555][871]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.45.47:555][871]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.45.47:555][871]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.45.47:555][871]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.45.47:557][871]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.45.47:557][871]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.45.47:558][871]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.45.49:066][962]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.45.49:078][963]LogBlueprintUserMessages: [WB_Inventory_C_0] Inventory Update
+[2023.12.08-22.45.50:428][ 44]LogBlueprintUserMessages: [BP_Player0_C_0] OW!!!!!
+[2023.12.08-22.45.50:428][ 44]LogBlueprintUserMessages: [BP_Player0_C_0] OW!!!!!
+[2023.12.08-22.45.50:428][ 44]LogBlueprintUserMessages: [BP_Player0_C_0] OW!!!!!
+[2023.12.08-22.45.53:428][224]LogBlueprintUserMessages: [BP_Player0_C_0] OW!!!!!
+[2023.12.08-22.45.53:428][224]LogBlueprintUserMessages: [BP_Player0_C_0] OW!!!!!
+[2023.12.08-22.45.53:428][224]LogBlueprintUserMessages: [BP_Player0_C_0] OW!!!!!
+[2023.12.08-22.45.53:501][226]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.08-22.45.53:501][226]LogWorld: BeginTearingDown for /Game/UEDPIE_0_TestLevel
+[2023.12.08-22.45.53:501][226]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2023.12.08-22.45.53:501][226]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.08-22.45.53:505][226]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.08-22.45.53:509][226]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.08-22.45.53:527][226]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.08-22.45.53:527][226]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2023.12.08-22.45.53:528][226]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.12.08-22.45.53:529][226]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.12.08-22.45.53:542][226]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.08-22.45.53:544][226]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2023.12.08-22.45.53:564][226]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.45.53:564][226]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.45.53:565][226]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.45.53:565][226]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.45.53:565][226]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.45.53:566][226]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.45.53:566][226]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.45.53:566][226]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.45.53:566][226]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.45.53:566][226]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.45.53:567][226]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.45.53:568][226]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.08-22.45.53:579][227]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2023.12.08-22.46.19:845][796]LogEditorTransaction: Undo Resize Widget
+[2023.12.08-22.46.21:519][879]BlueprintLog: New page: Compile WB_DropSlot
+[2023.12.08-22.46.21:552][879]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2023.12.08-22.46.21:930][895]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.08-22.46.22:018][895]LogSavePackage: Moving output files for package: /Game/Player_Character/InventoryComponet/Widgets/WB_DropSlot
+[2023.12.08-22.46.22:019][895]LogSavePackage: Moving '../../../../../../Users/space/OneDrive/Desktop/Projects/Final-Project/Saved/WB_DropSlot98FDA7194131EF9538DE23B6FCCF7DDA.tmp' to '../../../../../../Users/space/OneDrive/Desktop/Projects/Final-Project/Content/Player_Character/InventoryComponet/Widgets/WB_DropSlot.uasset'
+[2023.12.08-22.46.22:029][895]LogFileHelpers: InternalPromptForCheckoutAndSave took 99 ms (total: 1.00 sec)
+[2023.12.08-22.46.22:041][895]AssetCheck: New page: Asset Save: WB_DropSlot
+[2023.12.08-22.46.22:041][895]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Player_Character/InventoryComponet/Widgets/WB_DropSlot.WB_DropSlot

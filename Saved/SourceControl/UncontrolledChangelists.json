@@ -1,0 +1,27 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/space/OneDrive/Desktop/Projects/Final-Project/Content/CoreSystems/BP_GameMode.uasset",
+				"C:/Users/space/OneDrive/Desktop/Projects/Final-Project/Content/Player_Character/BP_Player0.uasset",
+				"C:/Users/space/OneDrive/Desktop/Projects/Final-Project/Content/Items/TestItem/BP_PropItem.uasset",
+				"C:/Users/space/OneDrive/Desktop/Projects/Final-Project/Content/Player_Character/InventoryComponet/AC_InventoryComponent.uasset",
+				"C:/Users/space/OneDrive/Desktop/Projects/Final-Project/Content/Player_Character/InventoryComponet/BP_InventoryInterface.uasset",
+				"C:/Users/space/OneDrive/Desktop/Projects/Final-Project/Content/Player_Character/InventoryComponet/M_Transparent.uasset",
+				"C:/Users/space/OneDrive/Desktop/Projects/Final-Project/Content/Player_Character/InventoryComponet/Widgets/WB_InventorySlot.uasset",
+				"C:/Users/space/OneDrive/Desktop/Projects/Final-Project/Content/Player_Character/InventoryComponet/Widgets/WB_DropSlot.uasset",
+				"C:/Users/space/OneDrive/Desktop/Projects/Final-Project/Content/Player_Character/InventoryComponet/Widgets/WB_Inventory.uasset",
+				"C:/Users/space/OneDrive/Desktop/Projects/Final-Project/Content/InventoryComponet/Widgets/WB_Inventory.uasset",
+				"C:/Users/space/OneDrive/Desktop/Projects/Final-Project/Content/InventoryComponet/Widgets/WB_DropSlot.uasset",
+				"C:/Users/space/OneDrive/Desktop/Projects/Final-Project/Content/InventoryComponet/Widgets/WB_InventorySlot.uasset",
+				"C:/Users/space/OneDrive/Desktop/Projects/Final-Project/Content/InventoryComponet/M_Transparent.uasset",
+				"C:/Users/space/OneDrive/Desktop/Projects/Final-Project/Content/InventoryComponet/BP_InventoryInterface.uasset",
+				"C:/Users/space/OneDrive/Desktop/Projects/Final-Project/Content/InventoryComponet/AC_InventoryComponent.uasset",
+				"C:/Users/space/OneDrive/Desktop/Projects/Final-Project/Content/TestLevel.umap"
+			]
+		}
+	]
+}
